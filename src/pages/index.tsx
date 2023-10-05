@@ -66,6 +66,14 @@ export default function Home() {
                 An LLM is only as smart as its framework
               </Link>
             </li>
+            <li>
+              <Link
+                className="text-indigo-500 underline"
+                href="/posts/why-ai-tutors-wont-save-edu"
+              >
+                Why AI tutors won&apos;t save education
+              </Link>
+            </li>
           </ul>
         </div>
 

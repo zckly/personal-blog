@@ -1,0 +1,63 @@
+# Why AI tutors won’t save education
+
+When ChatGPT first came out, a lot of techbros believed that it would fundamentally reshape the face of education.
+
+They probably imagined that learners would mainly use ChatGPT like this:
+
+“ChatGPT, I am a 13 year old that’s interested in behavioral economics. Can you create a course that explains everything in basic terms to me?”
+
+Or like this:
+
+“I am a 31 year old low-income service worker. Create a comprehensive learning plan on how I can switch into software engineering while working part-time.”
+
+Boom. Education - solved. Poverty - solved. We did it guys - we can all go back to working on B2B SaaS now.
+
+Just kidding. Instead, most students are using ChatGPT like this:
+
+“write an essay about George Washington for my Advanced Placement US History class. make sure it doesn’t look like I cheated, lol”
+
+This is not to say I disagree wholeheartedly with the techbros - I believe Large Language Models have the _capabilities_ to fundamentally reshape the face of education. I just don’t think ChatGPT/chatbots are the right tools to do it.
+
+There are a couple of fundamental issues with ChatGPT that prevent it from being the “killer app” for education:
+
+1. AI-generated educational content is repetitive and hard to trust
+2. Chatbot interface is limited and requires “learner agency”
+
+## Content generation doesn’t work as well for education
+
+Content generation is the most “obvious” use case when it comes to LLMs. We saw marketing copy generators (like Jasper and CopyAI) lead the early wave of “LLM-first” startups. And it made sense - the output could get away with being generic and it was good enough for 80% of people.
+
+Generating good educational content is _much_ harder. Compared to marketing copy, consumers generally want/expect a higher level of accuracy, trust, and “writing flair” from the educational content they consume.
+
+[Even after using special tutoring prompts like Mr. Ranedeer](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor), the courses generated are often shallow at best and inaccurate or outdated at worst.
+
+There are a couple of techniques I employ to get around some of the flaws of AI-generated educational content:
+
+- Rigorous [few-shot prompting](https://www.promptingguide.ai/techniques/fewshot). This means getting an experienced instructor to help craft a diverse, high-quality set of few-shot examples that you add to the prompt. Tradeoffs: more latency, more cost, narrower domain.
+- [Retrieval Augmented Generation \(RAG\)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG). This means curating source material and stuffing it into your prompt. This lets users see where the content is coming from and gives them more trust in what they’re learning. Tradeoffs: more latency, more cost
+
+Even after employing these techniques at my startup, I still ran into an even bigger issue:
+
+## The chatbot interface is limited
+
+Chatbots like ChatGPT can only respond to user prompts and follow-up questions. They lack the initiative and interactivity of human teachers who can adapt lessons, lead discussions and schedule follow-up sessions. Learners must actively formulate requests and queries themselves to drive their own education.
+
+To use an analogy from software engineering, chatbots are akin to a “push” model and human teachers provide more of a “pull model”.
+
+Chatbots operate on a "push" model where information is passively provided in response to user requests. This is akin to a software system that waits for API calls then returns pre-configured data.
+
+In contrast, human teachers work on more of a "pull" model, proactively guiding discussions, asking questions, assigning tasks, and pulling knowledge and critical thinking from the learner. The teacher takes initiative to structure lessons, lead activities, and pull learning from students. This is more analogous to an adaptive tutoring system that monitors student understanding and tailors instruction accordingly. Furthermore, human teachers actively "pull" learning by setting up repeat sessions with students to keep them accountable and ensure concepts are properly scaffolded over time.
+
+Many education entrepreneurs (including myself) fall into a common trap of thinking that solving education means creating the best content possible. The leaders of the MOOC revolution believed that, once you put the best educational content online, anyone could go and teach themselves anything.
+
+We were wrong.
+
+Education is so much more than that. It’s the accountability, support, peers, and everything else that the school system gives us that we seem to forget about once we become adults.
+
+For AI to properly reshape and accelerate how we learn, we can’t just create chatbots for tutoring. We have to create something more akin to a personal trainer or coach.
+
+## Conclusion
+
+While chatbots like ChatGPT showcase the potential of AI in education, they have critical limitations that prevent them from being a true breakthrough for learners. Their generated content tends to be generic, repetitive, and unreliable compared to human-created educational resources. More importantly, their responsive chatbot interface lacks the adaptability and interactivity of human teachers who can actively structure lessons, lead discussions, and pull critical thinking from students.
+
+For AI to truly transform learning, we need to move beyond just creating content repositories. We need to build systems that incorporate accountability, support structures, and the initiative of real teachers who can adaptively guide students through scaffolded learning over time. Chatbots may be able to augment certain educational workflows, but the democratization and personalization of learning needs solutions that go far beyond simply responding to prompted queries. Just as MOOCs failed to live up to their lofty promises, focusing solely on AI content creation underestimates the nuances of human teaching. While AI holds promise, we have to focus on designing solutions that incorporate the interactivity, adaptability, and support system of real educators. Only then can we leverage technology to enrich, rather than replace, the human elements of education.
