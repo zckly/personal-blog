@@ -56,22 +56,21 @@ export default function Home() {
           </Link>
         </div>
         <div className="mb-3">
-          I like to write about LLMs, startups, and education. Here are some:
+          I write about LLMs, startups, and education:
           <ul className="list-inside list-disc">
             <li>
               <Link
                 className="text-indigo-500 underline"
                 href="/posts/llms-and-frameworks"
               >
-                An LLM is only as smart as the frameworks in its prompt
+                An LLM is only as smart as its framework
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="mb-3">
-          I also like to build fun products that help people learn. Here are
-          some:
+          I make fun products that help people learn:
           <ul className="list-inside list-disc">
             <li>
               <Link
