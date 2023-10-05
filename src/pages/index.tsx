@@ -63,7 +63,8 @@ export default function Home() {
                 className="text-indigo-500 underline"
                 href="/posts/llms-and-frameworks"
               >
-                An LLM is only as smart as its framework
+                An LLM is only as smart as its prompt: the importance of expert
+                frameworks
               </Link>
             </li>
             <li>
