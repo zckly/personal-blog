@@ -67,14 +67,6 @@ export default function Home() {
                 frameworks
               </Link>
             </li>
-            <li>
-              <Link
-                className="text-indigo-500 underline"
-                href="/posts/why-ai-tutors-wont-save-edu"
-              >
-                Why AI tutors won&apos;t save education
-              </Link>
-            </li>
           </ul>
         </div>
 
