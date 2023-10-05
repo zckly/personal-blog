@@ -63,7 +63,7 @@ export default function Home() {
                 className="text-indigo-500 underline"
                 href="/posts/llms-and-frameworks"
               >
-                An LLM is only as smart as its prompt
+                Replacing experts with large language models
               </Link>
             </li>
           </ul>
