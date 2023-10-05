@@ -3,6 +3,9 @@
  * for Docker builds.
  */
 await import("./src/env.mjs");
+import withMdxFn from "@next/mdx";
+
+const withMDX = withMdxFn();
 
 /** @type {import("next").NextConfig} */
 const config = {
@@ -17,6 +20,7 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 };
 
-export default config;
+export default withMDX(config);
