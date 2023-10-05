@@ -63,7 +63,7 @@ export default function Home() {
                 className="text-indigo-500 underline"
                 href="/posts/llms-and-frameworks"
               >
-                Replacing experts with large language models
+                An LLM is only as good as its framework
               </Link>
             </li>
           </ul>
