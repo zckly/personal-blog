@@ -13,7 +13,15 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       />
     ),
     h2: (props) => (
-      <h2 style={{ fontSize: "1.25rem", fontWeight: 600 }} {...props} />
+      <h2
+        style={{
+          fontSize: "1.25rem",
+          fontWeight: 600,
+          marginTop: ".5rem",
+          marginBottom: "1rem",
+        }}
+        {...props}
+      />
     ),
     p: (props) => (
       <p
@@ -21,6 +29,17 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           fontSize: "1rem",
           fontWeight: 400,
           marginBottom: "1rem",
+        }}
+        {...props}
+      />
+    ),
+    li: (props) => (
+      <li
+        style={{
+          fontSize: "1rem",
+          fontWeight: 400,
+          marginBottom: ".5rem",
+          listStyleType: "disc",
         }}
         {...props}
       />
