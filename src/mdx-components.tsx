@@ -1,4 +1,5 @@
 import type { MDXComponents } from "mdx/types";
+import CodeBlock from "./components/CodeBlock";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -41,6 +42,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           marginBottom: ".5rem",
           listStyleType: "disc",
         }}
+        {...props}
+      />
+    ),
+    code: (props) => (
+      <CodeBlock
+        language={props.lang ?? "python"}
+        value={props.children as string}
         {...props}
       />
     ),

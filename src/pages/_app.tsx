@@ -16,7 +16,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         </Link>
       </div>
       <div className="flex min-h-[60vh] w-full flex-col items-center justify-center p-3">
-        <div className="max-w-xl">
+        <div className="max-w-3xl">
           <Component {...pageProps} />
         </div>
       </div>

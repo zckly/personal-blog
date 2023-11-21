@@ -61,6 +61,14 @@ export default function Home() {
             <li>
               <Link
                 className="text-indigo-500 underline"
+                href="/posts/function-calling-in-claude"
+              >
+                Experiment: Function calling with Claude 2
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="text-indigo-500 underline"
                 href="/posts/llms-and-frameworks"
               >
                 An LLM is only as good as its framework
@@ -99,7 +107,26 @@ export default function Home() {
                 free modern web development bootcamp on Youtube
               </Link>
             </li>
+            <li>
+              <Link
+                className="text-indigo-500 underline"
+                href="https://tacithq.com"
+              >
+                <span className="font-semibold">Tacit</span> - an AI-powered
+                copilot for desktop apps. Still in development.
+              </Link>
+            </li>
           </ul>
+        </div>
+        <div className="mb-3">
+          I&apos;m also occasionally available for consulting work. You can
+          reach me at{" "}
+          <Link
+            className="text-indigo-500 underline"
+            href="mailto:hi@wenquai.com"
+          >
+            hi@wenquai.com
+          </Link>
         </div>
         <div className="mb-3">
           You can find me on{" "}

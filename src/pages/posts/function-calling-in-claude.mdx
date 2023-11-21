@@ -1,0 +1,86 @@
+# Function calling with...Claude?
+
+[In June 2023, OpenAI released Function Calling](https://openai.com/blog/function-calling-and-other-api-updates), a brand new way to get LLMs to call APIs and tools. At the time of writing, no other LLM has this capability built into the SDK.
+
+I wanted to see if you could teach Anthropic's Claude to do the same thing. Turns out it's not as difficult as you might think!
+
+In this experiment, I replicated the OpenAI example of calling WeatherAPI for the current temperature in Boston.
+
+Step one: design a prompt that will take in a user query, a list of functions, and figure out which function to route to and what parameters to pass to it.
+
+```python
+from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
+
+anthropic = Anthropic()
+
+completion = anthropic.completions.create(
+    model="claude-2",
+    max_tokens_to_sample=300,
+    prompt=f"""{HUMAN_PROMPT} You are a powerful assistant that has the ability to take user queries and route them to tools. \
+When you respond to a user query, instead of telling them the answer directly, you should respond with the parameters of the appropriate tool to call upon.
+
+Here are the tools you have access to:
+- name: get_current_weather
+  description: Get the current weather in a given location
+  parameters:
+    type: object
+    properties:
+      location:
+        type: string
+        description: The city and state, e.g. San Francisco, CA
+      unit:
+        type: string
+        enum:
+          - celsius
+          - fahrenheit
+    required:
+      - location
+
+Don't say anything else - just return the parameters.
+
+Query:
+What's the weather in Boston, MA? {AI_PROMPT}""",
+)
+```
+
+And from the output, we get
+
+```json
+{
+  "location": "Boston, MA",
+  "unit": "fahrenheit"
+}
+```
+
+We'll manually pass these parameters to the WeatherAPI and get the following output:
+
+```json
+{ "temperature": 22, "unit": "celsius", "description": "Sunny" }
+```
+
+We'll save this as `mocked_weather_response` and use it in the next step.
+
+Finally, we'll design a prompt that will take the WeatherAPI response and formulate a coherent response to the user.
+
+```python
+completion = anthropic.completions.create(
+    model="claude-2",
+    max_tokens_to_sample=300,
+    prompt=f"""{HUMAN_PROMPT} You are a powerful assistant that has the ability to respond to user queries after getting back a response from a tool call.
+
+Here is the response from the get_current_weather tool:
+{mocked_weather_response}
+
+Query:
+
+What's the weather in Boston, MA? {AI_PROMPT}""",
+)
+```
+
+And finally, we get
+
+```
+According to the response from the get_current_weather tool, the temperature in Boston, MA is 22 degrees celsius and the weather is sunny.
+```
+
+Success! And there you have it - DIY function calling with Claude.
