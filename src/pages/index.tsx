@@ -6,7 +6,10 @@ export default function Home() {
     <>
       <Head>
         <title>Zachary Lee</title>
-        <meta name="description" content="Personal site of Zachary Lee" />
+        <meta
+          name="description"
+          content="Personal site of Zachary Lee (Wenquai)"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -38,6 +41,8 @@ export default function Home() {
             Playground Education
           </Link>
           , a research lab reimagining education in the age of generative AI.
+        </div>
+        <div className="mb-3">
           Previously, I&apos;ve worked as as a Data Scientist / Developer /
           Designer at places like{" "}
           <Link className="text-indigo-500 underline" href="https://copy.ai">
@@ -54,6 +59,33 @@ export default function Home() {
           <Link className="text-indigo-500 underline" href="https://indeed.com">
             Indeed.
           </Link>
+        </div>
+        <div className="mb-3">
+          I also love to teach/mentor others. I&apos;ve taught coding/AI at{" "}
+          <Link
+            className="text-indigo-500 underline"
+            href="https://www.galvanize.com/hack-reactor/"
+          >
+            Hack Reactor
+          </Link>
+          ,{" "}
+          <Link
+            className="text-indigo-500 underline"
+            href="https://www.thinkful.com/"
+          >
+            Thinkful
+          </Link>
+          , and{" "}
+          <Link
+            href="https://youtube.com/@wenquai"
+            className="text-indigo-500 underline"
+          >
+            my YouTube channel
+          </Link>
+        </div>
+        <div className="mb-3">
+          I live in New York City with my partner and 3 cats. These days
+          I&apos;m really into cooking, learning 日本語, and skateboarding.
         </div>
         <div className="mb-3">
           You can find me on{" "}
