@@ -61,7 +61,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="mb-3">
-          I also love to teach/mentor others. I&apos;ve taught coding/AI at{" "}
+          I also love to teach coding / AI. I used to teach at{" "}
           <Link
             className="text-indigo-500 underline"
             href="https://www.galvanize.com/hack-reactor/"
@@ -75,12 +75,12 @@ export default function Home() {
           >
             Thinkful
           </Link>
-          , and{" "}
+          , and on{" "}
           <Link
             href="https://youtube.com/@wenquai"
             className="text-indigo-500 underline"
           >
-            my YouTube channel
+            my YouTube channel.
           </Link>
         </div>
         <div className="mb-3">
