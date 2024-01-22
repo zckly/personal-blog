@@ -98,13 +98,6 @@ export default function Home() {
           ,{" "}
           <Link
             className="text-indigo-500 underline"
-            href="https://instagram.com/wenquai"
-          >
-            Instagram
-          </Link>
-          ,{" "}
-          <Link
-            className="text-indigo-500 underline"
             href="https://github.com/zckly"
           >
             Github
