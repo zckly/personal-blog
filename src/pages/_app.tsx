@@ -2,8 +2,10 @@ import { type AppType } from "next/app";
 
 import { api } from "~/utils/api";
 
+import { Analytics } from "@vercel/analytics/react";
 import { Figtree } from "next/font/google";
 import Link from "next/link";
+
 import "~/styles/globals.css";
 
 // If loading a variable font, you don't need to specify the font weight
@@ -25,6 +27,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           </div>
         </div>
       </div>
+      <Analytics />
     </main>
   );
 };
