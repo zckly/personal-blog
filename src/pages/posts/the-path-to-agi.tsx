@@ -37,7 +37,10 @@ export default function AgiIsNotAModel() {
           <p className="mb-4">
             But what I want you to consider is that it's actually possible to
             build an agent that can do this{" "}
-            <span className="italic">using only today's foundation models</span>
+            <span className="italic">
+              using only today's foundation models and really good prompt
+              engineering
+            </span>
             . to illustrate, here's a prototype of an autonomous startup agent
             that i whipped together a few months back with claude 3 and gpt-4:
           </p>
