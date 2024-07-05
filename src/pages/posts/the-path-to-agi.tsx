@@ -45,7 +45,6 @@ export default function AgiIsNotAModel() {
             width="600"
             height="400"
             controls
-            autoPlay
             loop
             preload="auto"
             className="mx-auto my-8 rounded-lg shadow-lg"

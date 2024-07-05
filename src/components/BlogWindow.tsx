@@ -3,7 +3,7 @@ import { ColoredLink } from "./ColoredLink";
 const blogPosts = [
   {
     title: "the path to agi",
-    href: "/posts/agi-is-not-a-model",
+    href: "/posts/the-path-to-agi",
   },
   {
     title: "superlearning",
@@ -19,7 +19,7 @@ export function BlogWindow() {
   return (
     <div className="window min-w-[360px] md:col-span-1 md:mt-6 md:min-w-0">
       <div className="title-bar">
-        <h1 className="title">blog posts</h1>
+        <h1 className="title">writings</h1>
       </div>
       <div className="separator"></div>
       <div className="window-pane text-sm">
