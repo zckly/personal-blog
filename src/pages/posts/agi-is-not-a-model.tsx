@@ -17,74 +17,91 @@ export default function AgiIsNotAModel() {
         <div className="window-pane text-sm">
           <h2 className="mb-4 text-lg font-bold">The Path to AGI</h2>
           <p className="mb-4">
-            After working with large language models (LLMs) for the past four
-            years, I have concluded that the path to Artificial General
-            Intelligence (AGI) will be markedly different from conventional
-            expectations. Among colleagues deeply invested in AGI, the prevalent
-            belief is that a company like OpenAI or Anthropic will be the first
-            to produce a model—perhaps GPT-6 or Claude 4—that meets the AGI
-            threshold. The problem with this assumption is that even an
-            incredibly intelligent foundation model will not suffice by itself
-            to achieve AGI.
+            The path to AGI is likely to differ significantly from common
+            expectations, based on my experience working with large language
+            models over the past four years. Many in the field anticipate that a
+            company like OpenAI or Anthropic will produce a model (perhaps GPT-6
+            or Claude 4) that achieves AGI-level intelligence. However, I think
+            that this view overlooks crucial aspects of AGI development.
           </p>
           <p className="mb-4">
-            To clarify, let's define AGI using a common example: an advanced AI
-            that can autonomously fulfill a command like "make me a million
-            dollars." This definition implies an AI capable of complex,
-            real-world tasks. The notion is that we will eventually have a model
-            powerful enough to handle such a command seamlessly. However, even
-            today's most advanced models are not yet capable of this, despite
-            their impressive intelligence.
+            Let's first define AGI using Sam Altman's example: a future version
+            of ChatGPT that can successfully execute a command like "make me a
+            million dollars." While this definition is widespread, it's
+            important to recognize that even an incredibly intelligent base
+            foundation model may not be sufficient to achieve AGI on its own.
           </p>
           <p className="mb-4">
-            Consider an AI tasked with making a million dollars by building an
-            internet business. Such an AI could theoretically analyze market
-            opportunities, validate ideas with landing pages and ads, and then
-            design and scale a product. This process requires not just one
-            intelligent agent but a coordinated effort of specialized agents—a
-            marketer, designer, and business strategist, among others. While
-            theoretically feasible, the current models struggle with high error
-            rates and edge cases, as seen with tools like Devon, which aims to
-            write and execute code but falls short in many scenarios.
+            Interestingly, it's already possible to create an AI system that
+            could potentially make a million dollars using today's models. This
+            could be accomplished (in theory) by training an agent specializing
+            in building internet businesses. Given the command to make a million
+            dollars, this agent could work backwards to identify promising
+            markets and opportunities, validate them using landing pages and
+            ads, and then design, build, and scale a product automatically.
+            Imagine a team of AI agents including a developer, marketer,
+            designer, and business strategist working together.
           </p>
           <p className="mb-4">
-            The limitations hindering AGI today are twofold: foundational model
-            intelligence and advanced prompt engineering techniques. Prompt
-            engineering, often misunderstood as merely communicating with AI in
-            human language, is more akin to concept engineering. It involves
-            crafting unique strings or tokens that elicit expert-level responses
-            from the AI. For instance, asking an AI to write a poem about an elm
-            tree typically yields a generic output. However, incorporating
-            few-shot prompts with high-quality examples can significantly
-            enhance the result, revealing the AI's capacity to produce more
-            sophisticated and nuanced content.
+            However, the current limitation lies in the{" "}
+            <span className="font-bold">high error rate</span> and{" "}
+            <span className="font-bold">inability to handle edge cases</span>.
+            We see this challenge even with existing software engineering agents
+            like <ColoredLink href="https://devin.ai/">Devin</ColoredLink> that
+            can write and execute code. Despite software engineering being a lot
+            easier to solve than building a successful business, Devin and its
+            compatriots still struggle with many edge cases users present.
           </p>
           <p className="mb-4">
-            Most AI engineers rely on instruction prompting, which often leads
-            to mediocre or inconsistent outputs. To advance toward AGI, we need
-            not only more sophisticated prompt engineering but also methods to
-            distill and transfer expert decision-making processes into formats
-            that LLMs can consume. This challenge underscores the complexity of
-            achieving AGI.
+            Two main factors limit our current ability to build AGI: the
+            intelligence of underlying foundational models and the
+            sophistication of prompt engineering techniques. Prompt engineering
+            is more than just conversing with AI; it's about concept engineering
+            – finding unique strings or tokens that evoke expert-level responses
+            from the AI.
           </p>
           <p className="mb-4">
-            For example, an AGI in medicine would need to go beyond summarizing
-            papers to generating new hypotheses and simulating experiments to
-            find new truths. Achieving this would require detailed collaboration
-            with medical experts to encode their decision-making processes into
-            an agent architecture. This approach highlights that AGI won't
-            emerge from a single, all-encompassing model but from specialized
-            systems designed to solve specific problems.
+            For instance, when asking an AI to write a poem about an elm tree
+            without additional context, the result is pretty...generic and
+            average. However, by including a few-shot prompt with a diverse
+            corpus of well-written poems, the AI's output improves tenfold. This
+            improvement occurs because the language model picks up on tacit
+            concepts in the expert prompt, leading to more expert output.
           </p>
           <p className="mb-4">
-            In summary, the path to AGI will not be a sudden breakthrough but a
-            gradual accumulation of specialized intelligent applications. We
-            will likely see pockets of AGI emerging in various domains, such as
-            business creation or medical problem-solving, through the concerted
-            efforts of startups and agent-based architectures. These
-            developments will precede the advent of a general-purpose AGI,
-            suggesting a future where AGI evolves from a collection of
-            domain-specific intelligences.
+            Unfortunately, most AI engineers I've met rely solely on instruction
+            prompting rather than few-shot prompting, often resulting in
+            mediocre or inconsistent outcomes. Advancing prompt engineering
+            involves not only understanding which concepts evoke expert
+            responses but also learning how to distill and transfer expert
+            decision-making processes into a format consumable by language
+            models.
+          </p>
+          <p className="mb-4">
+            Consider the challenge of building an AGI in medicine – one that
+            goes beyond summarizing papers to simulating new experiments and
+            generating novel hypotheses. Simply waiting for more advanced models
+            like GPT-5 or Claude 4 is unlikely to solve this problem due to the
+            vast amount of context and specialized tools required. Instead,
+            partnering with multiple doctors to understand their decision-making
+            processes and translating this into a detailed agent architecture
+            would be a more effective approach.
+          </p>
+          <p className="mb-4">
+            This perspective suggests that AGI will not emerge suddenly as a
+            single, all-encompassing model. Rather, we're likely to see pockets
+            of AGI form in specific areas as the next generation of language
+            models (GPT-5 or Claude 4 level) emerges and more companies build
+            intelligent applications around them. Startups focusing on creating
+            businesses or solving medical issues, if designed and implemented
+            correctly, may achieve domain-specific AGI before major AI research
+            companies produce a general AGI.
+          </p>
+          <p className="mb-4">
+            In conclusion, the path to AGI will likely be gradual and
+            domain-specific, driven by advances in both foundational models and
+            sophisticated prompt engineering techniques, rather than a sudden
+            breakthrough in general artificial intelligence.
           </p>
         </div>
       </div>
