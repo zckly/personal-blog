@@ -22,8 +22,9 @@ export default function AgiIsNotAModel() {
             experience working with large language models over the past four
             years. Most people I've talked to anticipate that a company like
             OpenAI or Anthropic will produce a model (perhaps GPT-6 or Claude 4)
-            that achieves AGI-level intelligence. However, I think that this
-            view overlooks crucial aspects of AGI development.
+            that achieves AGI-level intelligence. However, I think we'll see
+            domain-specific AGI emerge first in the application layer, driven by
+            advances in prompt engineering and agentic architectures.
           </p>
           <p className="mb-4">
             Let's first define AGI using Sam Altman's example: a future version
