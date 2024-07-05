@@ -19,7 +19,7 @@ const SocialLink = ({
 
 export const SocialWindow = () => {
   return (
-    <div className="window min-w-[400px] md:col-span-1 md:min-w-0">
+    <div className="window min-w-[360px] md:col-span-1 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">socials</h1>
       </div>

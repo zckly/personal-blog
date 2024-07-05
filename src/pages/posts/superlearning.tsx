@@ -11,7 +11,7 @@ export default function Superlearning() {
       <div className="p-4">
         <ColoredLink href="/">home</ColoredLink>
       </div>
-      <div className="window min-w-[400px]">
+      <div className="window min-w-[360px]">
         <div className="title-bar"></div>
         <div className="separator"></div>
         <div className="window-pane text-sm">
@@ -38,15 +38,6 @@ export default function Superlearning() {
               month-over-month.
             </li>
           </ul>
-          <p className="mb-4">
-            These apps demonstrate the potential of AI-driven tools to
-            revolutionize education by aligning with genuine learning needs
-            rather than institutional constraints.
-          </p>
-          <p className="mb-4">
-            As the field evolves, we can expect more innovative solutions that
-            dramatically accelerate learning across various domains.
-          </p>
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ const blogPosts = [
 
 export function BlogWindow() {
   return (
-    <div className="window min-w-[400px] md:col-span-1 md:min-w-0">
+    <div className="window min-w-[360px] md:col-span-1 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">blog posts</h1>
       </div>

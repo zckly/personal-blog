@@ -29,7 +29,7 @@ const projects = [
 
 export function ProjectsWindow() {
   return (
-    <div className="window min-w-[400px] md:col-span-2 md:min-w-0">
+    <div className="window min-w-[360px] md:col-span-2 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">projects</h1>
       </div>
