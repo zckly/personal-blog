@@ -6,7 +6,7 @@ export default function AgiIsNotAModel() {
   return (
     <>
       <Head>
-        <title>zackblog - agi is not a model</title>
+        <title>zackblog - the path to agi</title>
       </Head>
       <div className="p-4">
         <ColoredLink href="/">home</ColoredLink>
@@ -15,34 +15,43 @@ export default function AgiIsNotAModel() {
         <div className="title-bar"></div>
         <div className="separator"></div>
         <div className="window-pane text-sm">
-          <h2 className="mb-4 text-lg font-bold">AGI is not a model</h2>
+          <h2 className="mb-4 text-lg font-bold">The Path to AGI</h2>
           <p className="mb-4">
-            The Zuckerberg-Dwarkesh interview made me realize something: AGI
-            will most likely come from the application layer rather than the
-            foundation model layer.
+            After four years of working with large language models (LLMs), I've
+            concluded that the path to Artificial General Intelligence (AGI)
+            will differ significantly from common expectations.
           </p>
           <p className="mb-4">
-            Once the first GPT-5 level model is released, we'll start to see
-            pockets of "AGI" forming in various domains.
+            While many believe a company like OpenAI or Anthropic will produce
+            an AGI-capable model (e.g., GPT-6 or Claude 4), even an incredibly
+            intelligent foundation model alone won't suffice for AGI.
           </p>
-          <p className="mb-4">For example:</p>
+          <p className="mb-4">
+            Consider the common AGI example: an AI that can autonomously "make
+            me a million dollars." This implies an AI capable of complex,
+            real-world tasks, which current models struggle with despite their
+            intelligence.
+          </p>
+          <p className="mb-4">The limitations hindering AGI are twofold:</p>
           <ul className="mb-4 list-inside list-disc">
-            <li>
-              GPT-5 might enable the first autonomous startup founder agent.
-            </li>
-            <li>
-              Or an AI that can solve for all medical cases (even ones
-              unforeseen).
-            </li>
+            <li>Foundational model intelligence</li>
+            <li>Advanced prompt engineering techniques</li>
           </ul>
           <p className="mb-4">
-            These won't come from directly interacting with the model itself,
-            but rather from the systems that enable these models to plan and
-            solve tasks.
+            Prompt engineering, often misunderstood, is more akin to concept
+            engineering. It involves crafting unique prompts that elicit
+            expert-level responses from AI.
           </p>
           <p className="mb-4">
-            The real breakthrough will be in how we harness these powerful
-            models to create specialized, task-solving AIs.
+            The path to AGI will likely be a gradual accumulation of specialized
+            intelligent applications. We'll see pockets of AGI emerging in
+            various domains through the efforts of startups and agent-based
+            architectures.
+          </p>
+          <p className="mb-4">
+            In summary, AGI won't emerge from a single, all-encompassing model
+            but from specialized systems designed to solve specific problems
+            across different domains.
           </p>
         </div>
       </div>

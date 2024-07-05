@@ -6,7 +6,7 @@ const blogPosts = [
     href: "/posts/superlearning",
   },
   {
-    title: "agi is not a model",
+    title: "the path to agi",
     href: "/posts/agi-is-not-a-model",
   },
 ];
