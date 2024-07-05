@@ -19,31 +19,52 @@ export default function AgiIsNotAModel() {
           <p className="mb-4">
             The path to AGI is likely to differ significantly from common
             expectations, based on my experience working with large language
-            models over the past four years. Many in the field anticipate that a
-            company like OpenAI or Anthropic will produce a model (perhaps GPT-6
-            or Claude 4) that achieves AGI-level intelligence. However, I think
-            that this view overlooks crucial aspects of AGI development.
+            models over the past four years. Most people I've talked to
+            anticipate that a company like OpenAI or Anthropic will produce a
+            model (perhaps GPT-6 or Claude 4) that achieves AGI-level
+            intelligence. However, I think that this view overlooks crucial
+            aspects of AGI development.
           </p>
           <p className="mb-4">
             Let's first define AGI using Sam Altman's example: a future version
             of ChatGPT that can successfully execute a command like "make me a
             million dollars." While this definition is widespread, it's
-            important to recognize that even an incredibly intelligent base
-            foundation model may not be sufficient to achieve AGI on its own.
+            important to recognize that it'll probably be many years before we
+            have a foundation model that can achieve the complex, multi-step
+            reasoning process required to go out and autonomously make a million
+            dollars. Darn.
           </p>
           <p className="mb-4">
-            Interestingly, it's already possible to create an AI system that
-            could potentially make a million dollars using today's models. This
-            could be accomplished (in theory) by training an agent that
-            specializes in the strategy, design, engineering, and marketing of
-            internet businesses. Given the command to make a million dollars,
-            this agent could work backwards to identify promising markets and
-            opportunities, validate them using landing pages and ads, and then
-            design, build, and scale a product automatically. It's basically a
-            team of autonomous agents: a developer, a marketer, a designer, and
-            a business strategist working together.
+            But what I want you to consider is that it's actually possible to
+            build an agent that can do this{" "}
+            <span className="italic">using only today's foundation models</span>
+            . to illustrate, here's a prototype of an autonomous startup agent
+            that i whipped together a few months back with claude 3 and gpt-4:
           </p>
-          <p className="mb-4">
+          <video
+            width="600"
+            height="400"
+            controls
+            autoPlay
+            loop
+            preload="auto"
+            className="mx-auto my-8 rounded-lg shadow-lg"
+          >
+            <source src="/omni-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p>
+            A fully-autonomous startup founder could be accomplished by training
+            an agent that specializes in the strategy, design, engineering, and
+            marketing of internet businesses. Given the command to make a
+            million dollars, this agent could work backwards to identify
+            promising markets and opportunities, validate them using landing
+            pages and ads, and then design, build, and scale a product
+            automatically. It's basically a team of autonomous agents: a
+            developer, a marketer, a designer, and a business strategist all
+            working together towards a common goal.
+          </p>
+          <p className="my-4">
             However, the current limitation lies in the{" "}
             <span className="font-bold">high error rate</span> and{" "}
             <span className="font-bold">inability to handle edge cases</span>.
