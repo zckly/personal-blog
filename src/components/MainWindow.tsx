@@ -36,10 +36,15 @@ export function MainWindow() {
             </li>
             <li>
               i've taught coding/ai on{" "}
-              <ColoredLink href="https://www.youtube.com/">youtube</ColoredLink>
-              , <ColoredLink href="https://www.twitch.tv/">twitch</ColoredLink>,
-              and at top{" "}
-              <ColoredLink href="https://www.coursereport.com/best-coding-bootcamps">
+              <ColoredLink href="https://www.youtube.com/@wenquai">
+                youtube
+              </ColoredLink>
+              ,{" "}
+              <ColoredLink href="https://www.twitch.tv/wenquai">
+                twitch
+              </ColoredLink>
+              , and at top{" "}
+              <ColoredLink href="https://www.galvanize.com/">
                 coding bootcamps
               </ColoredLink>
             </li>
