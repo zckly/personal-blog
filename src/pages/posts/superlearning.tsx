@@ -18,6 +18,7 @@ export default function Superlearning() {
           <h2 className="mb-4 text-lg font-bold">
             The Rise of Superlearning Apps in AI x EdTech
           </h2>
+          <p className="mb-4 italic">nb: this post is a work in progress.</p>
           <p className="mb-4">
             While many AI EdTech solutions focus on automating busywork or
             adapting to traditional educational frameworks, a new category is

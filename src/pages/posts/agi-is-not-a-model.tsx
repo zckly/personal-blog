@@ -17,13 +17,13 @@ export default function AgiIsNotAModel() {
         <div className="window-pane text-sm">
           <h2 className="mb-4 text-lg font-bold">The Path to AGI</h2>
           <p className="mb-4">
-            The path to AGI is likely to differ significantly from common
-            expectations, based on my experience working with large language
-            models over the past four years. Most people I've talked to
-            anticipate that a company like OpenAI or Anthropic will produce a
-            model (perhaps GPT-6 or Claude 4) that achieves AGI-level
-            intelligence. However, I think that this view overlooks crucial
-            aspects of AGI development.
+            The path to Artificial General Intelligence (AGI) is likely to
+            differ significantly from common expectations, based on my
+            experience working with large language models over the past four
+            years. Most people I've talked to anticipate that a company like
+            OpenAI or Anthropic will produce a model (perhaps GPT-6 or Claude 4)
+            that achieves AGI-level intelligence. However, I think that this
+            view overlooks crucial aspects of AGI development.
           </p>
           <p className="mb-4">
             Let's first define AGI using Sam Altman's example: a future version
