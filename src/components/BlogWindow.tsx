@@ -2,12 +2,16 @@ import { ColoredLink } from "./ColoredLink";
 
 const blogPosts = [
   {
+    title: "the path to agi",
+    href: "/posts/agi-is-not-a-model",
+  },
+  {
     title: "superlearning",
     href: "/posts/superlearning",
   },
   {
-    title: "the path to agi",
-    href: "/posts/agi-is-not-a-model",
+    title: "a playbook for scaling llms",
+    href: "https://x.com/wenquai/status/1748016021808595242",
   },
 ];
 

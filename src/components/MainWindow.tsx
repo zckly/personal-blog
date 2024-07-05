@@ -21,16 +21,23 @@ export function MainWindow() {
               i've been a software engineer for over 10 years, a data scientist
               for 7, and a designer for 4
             </li>
-            <li>was founding engineer for two companies</li>
             <li>
-              i make and run{" "}
-              <ColoredLink href="https://wanderer.space">Wanderer</ColoredLink>,
-              an app that helps people visualize their potential futures
+              was founding engineer for{" "}
+              <ColoredLink href="https://www.vinovest.com/">
+                vinovest
+              </ColoredLink>{" "}
+              and <ColoredLink href="https://www.copy.ai/">copy.ai</ColoredLink>
             </li>
             <li>
-              i've taught coding/AI on{" "}
-              <ColoredLink href="https://www.youtube.com/">Youtube</ColoredLink>
-              , <ColoredLink href="https://www.twitch.tv/">Twitch</ColoredLink>,
+              i make{" "}
+              <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
+              an app that helps people visualize their potential futures (300K+
+              users)
+            </li>
+            <li>
+              i've taught coding/ai on{" "}
+              <ColoredLink href="https://www.youtube.com/">youtube</ColoredLink>
+              , <ColoredLink href="https://www.twitch.tv/">twitch</ColoredLink>,
               and at top{" "}
               <ColoredLink href="https://www.coursereport.com/best-coding-bootcamps">
                 coding bootcamps
