@@ -34,13 +34,14 @@ export default function AgiIsNotAModel() {
           <p className="mb-4">
             Interestingly, it's already possible to create an AI system that
             could potentially make a million dollars using today's models. This
-            could be accomplished (in theory) by training an agent specializing
-            in building internet businesses. Given the command to make a million
-            dollars, this agent could work backwards to identify promising
-            markets and opportunities, validate them using landing pages and
-            ads, and then design, build, and scale a product automatically.
-            Imagine a team of AI agents including a developer, marketer,
-            designer, and business strategist working together.
+            could be accomplished (in theory) by training an agent that
+            specializes in the strategy, design, engineering, and marketing of
+            internet businesses. Given the command to make a million dollars,
+            this agent could work backwards to identify promising markets and
+            opportunities, validate them using landing pages and ads, and then
+            design, build, and scale a product automatically. It's basically a
+            team of autonomous agents: a developer, a marketer, a designer, and
+            a business strategist working together.
           </p>
           <p className="mb-4">
             However, the current limitation lies in the{" "}
