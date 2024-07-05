@@ -3,7 +3,7 @@ import { ColoredLink } from "./ColoredLink";
 
 export function MainWindow() {
   return (
-    <div className="window min-w-[360px] md:col-span-2 md:min-w-0">
+    <div className="window mt-6 min-w-[360px] md:col-span-2 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">zack</h1>
       </div>
