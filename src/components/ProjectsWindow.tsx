@@ -22,7 +22,7 @@ const projects = [
     href: "https://github.com/zckly/ai-engineer-roadmap",
   },
   {
-    title: "storybook generator with DALL-E",
+    title: "storybook generator with dall-e",
     href: "https://x.com/wenquai/status/1527312285152452608",
   },
 ];

@@ -21,9 +21,9 @@ export default function AiFirstDesign() {
           </h2>
           <p className="mb-4">
             The design process for building AI-first products, especially those
-            using large language models (LLMs), is significantly different from
-            traditional product design. In the past, the design process was
-            linear and looked something like this:
+            using LLMs, is significantly different from traditional product
+            design. In the past, the design process was linear and looked
+            something like this:
           </p>
           <img
             className="mx-auto max-w-lg"

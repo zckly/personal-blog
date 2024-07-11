@@ -5,7 +5,7 @@ import { SocialWindow } from "~/components/SocialWindow";
 
 export default function Home() {
   return (
-    <div className="md:grid md:grid-cols-3">
+    <div className="mx-auto max-w-5xl md:grid md:grid-cols-3">
       <MainWindow />
       <BlogWindow />
       <ProjectsWindow />

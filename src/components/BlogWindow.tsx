@@ -6,7 +6,7 @@ const blogPosts = [
     href: "/posts/the-path-to-agi",
   },
   {
-    title: "you're probably designing AI products wrong",
+    title: "you're probably designing ai products wrong",
     href: "/posts/ai-first-design",
   },
   {
