@@ -27,7 +27,7 @@ export default function AiFirstDesign() {
           </p>
           <img
             className="mx-auto max-w-lg"
-            src="https://media.cleanshot.cloud/media/12614/VbaKLVAxjITCYIDhcTlWSbLEB1fPl5jjr88CYV5d.jpeg?Expires=1720752004&Signature=g2bOnhLTJPwgLrfPZiWoH8-q5MgrPirB2ObX1CHh4wYu2FK5Ug2FZoJ78R39qIdCbCx3URvQM7xZrpEbsfSHse10YgWCCuf7dIxmVoGEz-~OJZIDiQqP4AMw1nUB3jWHOTEHXnpZSvtJ3R9XQuZEsHmDVlOzOwsQBM4~Gvtsb46jxqKirHJSbf4Bs9-J4jHfz~ka7kzxYF9eLwEDey~LdTBBU82T~C1b5DVY8FYx1Rri-kepewke5~Hc~k5h~O37-RQOIRQg5dl3VYhTx3EAc6k1R6jBluV-A2HCD8xbvCzzBbuWGWW9CtImWTReQmOTRkZv~tJvOqbnleZo7Sfalg__&Key-Pair-Id=K269JMAT9ZF4GZ"
+            src="/normal-product-design.jpeg"
             alt="ai-first-design-process"
           />
           <ol className="mb-4 list-inside list-decimal">
@@ -47,7 +47,7 @@ export default function AiFirstDesign() {
           </p>
           <img
             className="mx-auto max-w-lg"
-            src="https://media.cleanshot.cloud/media/12614/iAlRWG6pJSwRQX2nCeeeXUs7esVdLd76n2isBwT1.jpeg?Expires=1720752157&Signature=bc6kiwVpgPOOJqQAs5eECZnUmbPlcqWCu0XQCjAxG6z0NR0Ydiie0OxBO1282Jru844zzbAL1tEimEjhMnB50KZhj3qIVTlsHzS2kfmQqPyzBfubFkxMwlXGYt3Im16jGM4c8kOnEQsl1f7CG6hDoZSpbKlAZ0hmvYS7pnnJpNJBp1~sv1qe0vKQvyKYqq8urE43gwWC5KVBBT9vZTDga6Y9m7vdj5gSSyhrBuhFhA9-HVrpbePFMjegiNeMH6f6Pkp29aCcsOkr6nHAEqrNDsnctMu-t2MebXzjaUFuupNQncvaP5Ku6TJbG9u4ywBT4wlu6Uki0YrwqpBnF8J1kA__&Key-Pair-Id=K269JMAT9ZF4GZ"
+            src="/ai-product-design.jpeg"
             alt="ai-first-design-process"
           />
           <p className="mb-4">
