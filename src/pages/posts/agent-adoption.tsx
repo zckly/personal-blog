@@ -18,7 +18,7 @@ export default function AgentAdoption() {
         <div className="separator"></div>
         <div className="window-pane text-sm">
           <h2 className="mb-4 text-lg font-bold">
-            AI Agents Have a Big Adoption Problem
+            AI Agents Have a Big Problem
           </h2>
           <p className="mb-4">
             The biggest challenge facing companies building AI agents isn't

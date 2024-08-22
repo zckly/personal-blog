@@ -2,7 +2,7 @@ import { ColoredLink } from "./ColoredLink";
 
 const blogPosts = [
   {
-    title: "ai agents have a big adoption problem",
+    title: "ai agents have a big problem",
     href: "/posts/agent-adoption",
   },
   {
