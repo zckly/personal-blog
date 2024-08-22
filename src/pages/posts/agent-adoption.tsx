@@ -21,11 +21,11 @@ export default function AgentAdoption() {
             AI Agents Have a Big Problem
           </h2>
           <p className="mb-4">
-            The biggest challenge facing companies building AI agents isn't
-            technical limitations — it's adoption. Most people simply struggle
-            to incorporate an agent as their primary work interface. In other
-            words, there's a mismatch between the form these AI agents take and
-            the context in which they're expected to be used.
+            The biggest challenge facing AI agent companies is that they're
+            incredibly hard to adopt. Most people simply struggle to incorporate
+            an agent as their primary work interface. In other words, there's a
+            mismatch between the form these AI agents take and the context in
+            which they're expected to be used.
           </p>
           <p className="mb-4">
             For instance, I've had access to an AI software engineer named{" "}
@@ -40,24 +40,26 @@ export default function AgentAdoption() {
             session that felt almost magical. Watching Devin automate the role
             of a software engineer was seriously impressive. I threw a few tasks
             at it — like building small ideas I had and contributing to an
-            existing codebase. Devin was excellent at creating new apps from
+            existing codebase. It was excellent at creating new apps from
             scratch but stumbled a bit when it came to integrating into existing
             projects. That’s not entirely Devin’s fault though — it’s not a mind
             reader, and I probably should’ve provided more detailed prompts.
-            What stood out to me during that session was that I had to shift my
-            mindset. To get the most out of Devin, I needed to plan my tasks
-            more like a technical PM than an engineer. I distinctly remember
-            feeling excited about adopting this new workflow in my daily
-            routine.
+            What stood out to me during that session was the clear mindset shift
+            I needed to get the most out of Devin. Within the Devin interface I
+            wasn't an engineer, but a technical product manager. It felt like I
+            was commanding a team of junior engineers to go and do my bidding. I
+            distinctly remember feeling excited about this potential new
+            workflow.
           </p>
           <p className="mb-4">
-            And then… I didn't. I thought about using it the next day but ended
-            up skipping it to fix some urgent bugs in one of my projects. Sure,
-            I could've used Devin to do it, but it would've required the extra
-            effort of crafting the right prompt and monitoring the task. I
-            already had all the context in my head, so it was quicker to just
-            open Cursor and knock it out myself. This happened repeatedly over
-            the next few days until I forgot about Devin entirely.
+            And then… nothing really changed. I thought about using it the next
+            day but ended up skipping it to fix some urgent bugs in one of my
+            projects. Sure, I could've used Devin to do it, but it would've
+            required the extra effort of crafting the right prompt and
+            monitoring the task. I already had all the context in my head, so it
+            was quicker to just open Cursor and knock it out myself. This
+            happened repeatedly over the next few days until I forgot about
+            Devin entirely.
           </p>
           <p className="mb-4">
             I had a similar experience with{" "}
@@ -81,13 +83,10 @@ export default function AgentAdoption() {
             the context in my head.
           </p>
           <p className="mb-4">
-            So, what's the takeaway here for creators of AI agents? Stop
-            treating technical issues as your core problem. The real issue lies
-            in the design space — simply put, you need to bridge the gap between
-            form and context. Agents need to either be seamlessly integrated
-            into the tools people already use or adopt a form factor that
-            closely aligns with the "analog" methods users are comfortable with
-            today.
+            So, what's the takeaway here for creators of AI agents? If need to
+            improve the fit between form and context. Agents must either:
+            Integrate into existing tools we use daily, or Mimic the "analog"
+            way we currently do things
           </p>
           <p className="mb-4">
             Cursor is a great example — it's an AI-powered code editor, and they
