@@ -11,7 +11,7 @@ export default function Superlearning() {
       <div className="p-4">
         <ColoredLink href="/">home</ColoredLink>
       </div>
-      <div className="window min-w-[360px]">
+      <div className="window mx-auto min-w-[360px] max-w-2xl">
         <div className="title-bar"></div>
         <div className="separator"></div>
         <div className="window-pane text-sm">
