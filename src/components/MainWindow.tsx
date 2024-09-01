@@ -11,8 +11,9 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm a technology generalist living in nyc. i specialize in
-            designing, building, and scaling llm-powered applications.
+            i'm an engineer, designer, researcher, and educator currently
+            residing in NYC. i specialize in designing, building, and scaling
+            AI-powered applications.
           </div>
           <div>facts about me:</div>
           <ul className="list-inside list-disc">
