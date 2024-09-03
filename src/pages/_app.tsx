@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "@sakun/system.css";
+import { Analytics } from "@vercel/analytics/react";
 import { type AppType } from "next/app";
 import Head from "next/head";
 import "~/styles/globals.css";
@@ -16,6 +17,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       </Head>
 
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 };
