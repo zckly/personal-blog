@@ -2,6 +2,10 @@ import { ColoredLink } from "./ColoredLink";
 
 const projects = [
   {
+    title: "hyperrealistic dress-up game",
+    href: "https://x.com/wenquai/status/1830590675236344317",
+  },
+  {
     title: "affirmations generator",
     href: "https://affirmations-ai.vercel.app/",
   },
