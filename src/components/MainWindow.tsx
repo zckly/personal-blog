@@ -11,9 +11,12 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm an engineer, designer, researcher, and educator currently
-            residing in NYC. i specialize in designing, building, and scaling
-            AI-powered applications.
+            i'm an engineer/researcher working on interactive education at{" "}
+            <ColoredLink href="https://www.anthropic.com/">
+              Anthropic
+            </ColoredLink>
+            . i specialize in designing, building, and scaling AI-powered
+            applications.
           </div>
           <div>facts about me:</div>
           <ul className="list-inside list-disc">
