@@ -11,12 +11,12 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm an engineer/researcher working on interactive education at{" "}
+            i'm a Member of Technical Staff at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
             </ColoredLink>
-            . i specialize in designing, building, and scaling AI-powered
-            applications.
+            . i explore how large language models can enhance interactive
+            learning experiences.
           </div>
           <div>facts about me:</div>
           <ul className="list-inside list-disc">
@@ -35,7 +35,7 @@ export function MainWindow() {
             <li>
               i make{" "}
               <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
-              an app that helps people visualize their potential futures (300K+
+              an app that helps people visualize their potential futures (400K+
               users)
             </li>
             <li>
