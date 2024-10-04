@@ -15,22 +15,22 @@ export function MainWindow() {
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
             </ColoredLink>
-            . i explore how large language models can enhance interactive
-            learning experiences.
+            , where I work on the intersection of language models and
+            interactive learning.
           </div>
           <div>facts about me:</div>
           <ul className="list-inside list-disc">
             <li>grew up in houston, texas</li>
             <li>
-              i've been a software engineer for over 10 years, a data scientist
-              for 7, and a designer for 4
+              software engineer for over 10 years, data scientist for 7,
+              designer for 4
             </li>
             <li>
-              was founding engineer for{" "}
-              <ColoredLink href="https://www.vinovest.com/">
-                vinovest
-              </ColoredLink>{" "}
-              and <ColoredLink href="https://www.copy.ai/">copy.ai</ColoredLink>
+              previously I was the founder of an AI x education research lab
+              called{" "}
+              <ColoredLink href="https://onplayground.com">
+                playground education
+              </ColoredLink>
             </li>
             <li>
               i make{" "}
