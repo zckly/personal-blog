@@ -11,20 +11,15 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm a Member of Technical Staff at{" "}
+            i'm a researcher/designer/engineer at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
-            </ColoredLink>
-            , where I work on the intersection of language models and
-            interactive learning.
+            </ColoredLink>{" "}
+            building AI systems that enhance human capabilities.
           </div>
           <div>facts about me:</div>
           <ul className="list-inside list-disc">
             <li>grew up in houston, texas</li>
-            <li>
-              software engineer for over 10 years, data scientist for 7,
-              designer for 4
-            </li>
             <li>
               previously I was the founder of an AI x education research lab
               called{" "}
@@ -33,7 +28,7 @@ export function MainWindow() {
               </ColoredLink>
             </li>
             <li>
-              i make{" "}
+              i made{" "}
               <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
               an app that helps people visualize their potential futures (400K+
               users)
