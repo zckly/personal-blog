@@ -1,3 +1,92 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Base overrides for dark mode */
+.dark {
+  color: #e0e0e0;
+}
+
+.dark body {
+  background-color: #1a1a2e;
+  background-image: radial-gradient(rgba(141, 92, 244, 0.1) 1px, transparent 1px);
+  background-size: 25px 25px;
+  min-height: 100vh;
+}
+
+/* Dark mode overrides for windows */
+.dark .window {
+  background-color: #2b2b42;
+  border-color: #5c5c8a;
+  box-shadow: 0 0 15px rgba(141, 92, 244, 0.3);
+}
+
+.dark .title-bar {
+  background-color: #3f3f60;
+  color: #f0f0f0;
+}
+
+.dark .title {
+  background-color: transparent;
+}
+
+.dark .window-pane {
+  background-color: #2b2b42;
+  color: #e0e0e0;
+}
+
+.dark .separator {
+  background-color: #5c5c8a;
+}
+
+.dark .window-control {
+  color: #f0f0f0;
+  background-color: transparent;
+}
+
+.dark .btn {
+  background-color: #2b2b42;
+  border-color: #5c5c8a;
+  box-shadow: 2px 2px 0 rgba(141, 92, 244, 0.2);
+}
+
+.dark .btn:hover {
+  background-color: #3f3f60;
+}
+
+.dark .modeless-dialog {
+  background-color: #2b2b42;
+  color: #e0e0e0;
+}
+
+/* Window transition settings */
+.window, .title-bar, .window-pane, .separator, body, .btn, .window-control {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Draggable window styles */
+.resize-handle {
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.resize-handle:hover {
+  opacity: 1;
+}
+
+/* Window styles for draggable windows */
+.absolute.window {
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.absolute.window:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dark .absolute.window:hover {
+  box-shadow: 0 8px 25px rgba(141, 92, 244, 0.4);
+}
