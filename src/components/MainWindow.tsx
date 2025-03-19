@@ -1,11 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import { ColoredLink } from "./ColoredLink";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function MainWindow() {
   return (
-    <div className="window mt-6 min-w-[360px] md:col-span-2 md:min-w-0">
-      <div className="title-bar">
+    <div className="window min-w-[400px] md:col-span-2 md:min-w-0">
+      <div className="title-bar flex items-center justify-between">
+        <div className="w-10"></div>
         <h1 className="title">zack</h1>
+        <div className="-mr-2 flex items-center">
+          <ThemeToggle />
+        </div>
       </div>
       <div className="separator"></div>
       <div className="window-pane text-sm">
@@ -19,7 +24,6 @@ export function MainWindow() {
           </div>
           <div>Facts about me:</div>
           <ul className="list-inside list-disc">
-            <li>grew up in houston, texas</li>
             <li>
               Previously I was the founder of an AI x education research lab
               called{" "}

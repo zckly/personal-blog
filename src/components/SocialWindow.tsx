@@ -19,7 +19,7 @@ const SocialLink = ({
 
 export const SocialWindow = () => {
   return (
-    <div className="window min-w-[360px] md:col-span-1 md:min-w-0">
+    <div className="window min-w-[400px] md:col-span-1 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">socials</h1>
       </div>
@@ -27,22 +27,25 @@ export const SocialWindow = () => {
       <div className="modeless-dialog flex flex-col gap-y-2 p-4">
         <SocialLink
           href="https://twitter.com/wenquai"
-          className="text-[#1DA1F2]"
+          className="text-[#1DA1F2] dark:text-[#4db5f5]"
         >
           twitter
         </SocialLink>
-        <SocialLink href="https://github.com/zckly" className="text-[#333]">
+        <SocialLink
+          href="https://github.com/zckly"
+          className="text-[#333] dark:text-white"
+        >
           github
         </SocialLink>
         <SocialLink
           href="https://www.linkedin.com/in/zckly/"
-          className="text-[#0A66C2]"
+          className="text-[#0A66C2] dark:text-[#3b9ddd]"
         >
           linkedin
         </SocialLink>
         <SocialLink
           href="https://www.youtube.com/@wenquai"
-          className="text-[#FF0000]"
+          className="text-[#FF0000] dark:text-[#ff5252]"
         >
           youtube
         </SocialLink>
