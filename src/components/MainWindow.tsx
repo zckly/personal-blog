@@ -11,27 +11,26 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm a researcher/designer/engineer at{" "}
+            I'm a Member of Technical Staff at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
-            </ColoredLink>{" "}
-            building AI systems that enhance human capabilities.
+            </ColoredLink>
+            , exploring how AI can transform educational experiences.
           </div>
-          <div>facts about me:</div>
+          <div>Facts about me:</div>
           <ul className="list-inside list-disc">
             <li>grew up in houston, texas</li>
             <li>
-              previously I was the founder of an AI x education research lab
+              Previously I was the founder of an AI x education research lab
               called{" "}
               <ColoredLink href="https://onplayground.com">
                 playground education
               </ColoredLink>
             </li>
             <li>
-              i made{" "}
+              I made{" "}
               <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
-              an app that helps people visualize their potential futures (400K+
-              users)
+              an app that helps people visualize their potential futures
             </li>
             <li>
               i've taught coding/ai on{" "}
