@@ -18,6 +18,10 @@ const projects = [
     href: "https://youtu.be/rqF0IQJ3bnY",
   },
   {
+    title: "codecademy for prompt engineering",
+    href: "https://www.genschool.com",
+  },
+  {
     title: "ai engineering roadmap",
     href: "https://github.com/zckly/ai-engineer-roadmap",
   },
@@ -29,7 +33,7 @@ const projects = [
 
 export function ProjectsWindow() {
   return (
-    <div className="window min-w-[400px] md:col-span-2 md:min-w-0">
+    <div className="window min-w-[360px] md:col-span-2 md:min-w-0">
       <div className="title-bar">
         <h1 className="title">projects</h1>
       </div>

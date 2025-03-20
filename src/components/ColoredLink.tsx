@@ -8,10 +8,7 @@ export const ColoredLink = ({
   href: string;
 }) => {
   return (
-    <Link 
-      className="text-blue-500 dark:text-retro-highlight underline hover:text-blue-700 dark:hover:text-purple-300 transition-colors" 
-      href={href}
-    >
+    <Link className="text-blue-500 underline" href={href}>
       {children}
     </Link>
   );
