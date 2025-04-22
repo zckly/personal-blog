@@ -11,30 +11,27 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            i'm a researcher/designer/engineer at{" "}
+            researcher/designer/engineer at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
             </ColoredLink>{" "}
-            building AI systems that enhance human capabilities.
+            — shaping how AI amplifies human potential.
           </div>
-          <div>facts about me:</div>
           <ul className="list-inside list-disc">
-            <li>grew up in houston, texas</li>
             <li>
-              previously I was the founder of an AI x education research lab
-              called{" "}
+              founded{" "}
               <ColoredLink href="https://onplayground.com">
                 playground education
               </ColoredLink>
+              , an AI research lab exploring the future of learning
             </li>
             <li>
-              i made{" "}
-              <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
-              an app that helps people visualize their potential futures (400K+
-              users)
+              built{" "}
+              <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>, a
+              life-path visualization tool
             </li>
             <li>
-              i've taught coding/ai on{" "}
+              taught thousands to code through{" "}
               <ColoredLink href="https://www.youtube.com/@wenquai">
                 youtube
               </ColoredLink>
@@ -42,9 +39,9 @@ export function MainWindow() {
               <ColoredLink href="https://www.twitch.tv/wenquai">
                 twitch
               </ColoredLink>
-              , and at top{" "}
+              , and at{" "}
               <ColoredLink href="https://www.galvanize.com/">
-                coding bootcamps
+                galvanize
               </ColoredLink>
             </li>
           </ul>

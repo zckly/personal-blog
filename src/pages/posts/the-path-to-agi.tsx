@@ -6,7 +6,7 @@ export default function AgiIsNotAModel() {
   return (
     <>
       <Head>
-        <title>zackblog - the path to agi</title>
+        <title>zackblog - agi will emerge in pieces, not a big bang</title>
       </Head>
       <div className="p-4">
         <ColoredLink href="/">home</ColoredLink>
@@ -15,35 +15,36 @@ export default function AgiIsNotAModel() {
         <div className="title-bar"></div>
         <div className="separator"></div>
         <div className="window-pane text-sm">
-          <h2 className="mb-4 text-lg font-bold">The Path to AGI</h2>
+          <h2 className="mb-4 text-lg font-bold">You're Waiting for the Wrong AGI</h2>
           <p className="mb-4">
-            The path to Artificial General Intelligence (AGI) is likely to
-            differ significantly from common expectations, based on my
-            experience working with large language models over the past four
-            years. Most people I've talked to anticipate that a company like
-            OpenAI or Anthropic will produce a model (perhaps GPT-6 or Claude 4)
-            that achieves AGI-level intelligence. However, I have strong
-            conviction that we'll soon see AGI emerge in specific domains in the
-            application layer rather than the foundational layer.
+            Everyone's waiting for the messiah model—GPT-6, Claude 4, some mythical 
+            architecture that finally "achieves" AGI. They're dreaming of a 
+            foundation model so powerful it can do everything from curing cancer 
+            to writing symphonies to running multinational corporations.
           </p>
           <p className="mb-4">
-            Let's first define AGI using Sam Altman's example: a future version
-            of ChatGPT that can successfully execute a command like "make me a
-            million dollars." While this definition is widespread, it's
-            important to recognize that it'll probably be many years before we
-            have a foundation model that can achieve the complex, multi-step
-            reasoning process required to go out and autonomously make a million
-            dollars. Darn.
+            After four years in the language model trenches, I'm convinced they're 
+            looking in the wrong place. AGI won't arrive as a single breakthrough. 
+            It's already emerging piece by piece, domain by domain, in ways that 
+            will upend the AI landscape before the foundation model researchers 
+            even realize the game has changed.
           </p>
           <p className="mb-4">
-            But what I want you to consider is that it's actually possible to
-            build an agent that can do this{" "}
-            <span className="italic">
-              using only today's foundation models and really good prompt
-              engineering
-            </span>
-            . to illustrate, here's a prototype of an autonomous startup agent
-            that i whipped together a few months back with claude 3 and gpt-4:
+            Take Sam Altman's AGI definition: a system that can reliably execute 
+            commands like "make me a million dollars." The foundation model faithful 
+            believe we need to wait years for GPT-6 to master the complex reasoning 
+            required for autonomous wealth generation.
+          </p>
+          <p className="mb-4">
+            But here's the secret the big labs don't want you to know: you can build 
+            this <span className="italic">right now</span>. Not with better models, 
+            but with better engineering. Not with more parameters, but with more 
+            prompting finesse. The AGI isn't in the model—it's in the orchestration.
+          </p>
+          <p className="mb-4">
+            Don't believe me? Here's an autonomous startup engine I hacked together 
+            in two weeks using vanilla Claude 3 and GPT-4. Nothing fancy—just 
+            ruthlessly practical prompt engineering:
           </p>
           <video
             width="600"

@@ -6,11 +6,7 @@ const blogPosts = [
     href: "/posts/agent-adoption",
   },
   {
-    title: "the path to agi",
-    href: "/posts/the-path-to-agi",
-  },
-  {
-    title: "you're probably designing ai products wrong",
+    title: "the foundational shift in ai product design",
     href: "/posts/ai-first-design",
   },
   {
