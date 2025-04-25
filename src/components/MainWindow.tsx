@@ -11,11 +11,11 @@ export function MainWindow() {
       <div className="window-pane text-sm">
         <div className="flex flex-col gap-y-2">
           <div>
-            researcher/designer/engineer at{" "}
+            research engineer at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
             </ColoredLink>{" "}
-            — shaping how AI amplifies human potential.
+            ,shaping how AI amplifies human potential.
           </div>
           <ul className="list-inside list-disc">
             <li>
@@ -27,8 +27,8 @@ export function MainWindow() {
             </li>
             <li>
               built{" "}
-              <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>, a
-              life-path visualization tool
+              <ColoredLink href="https://wanderer.space">wanderer</ColoredLink>,
+              a life-path visualization tool
             </li>
             <li>
               taught thousands to code through{" "}
