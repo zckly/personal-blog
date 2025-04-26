@@ -14,8 +14,8 @@ export function MainWindow() {
             research engineer at{" "}
             <ColoredLink href="https://www.anthropic.com/">
               Anthropic
-            </ColoredLink>{" "}
-            ,shaping how AI amplifies human potential.
+            </ColoredLink>
+            , shaping how AI amplifies human potential. based in new york city.
           </div>
           <ul className="list-inside list-disc">
             <li>
